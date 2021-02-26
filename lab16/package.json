@@ -1,0 +1,29 @@
+{
+  "name": "lol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix --config=.eslintrc.js index.js",
+    "minify:js": "uglifyjs *.js -o dist/js/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TKUIK2020/js-KaRRd1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TKUIK2020/js-KaRRd1/issues"
+  },
+  "homepage": "https://github.com/TKUIK2020/js-KaRRd1#readme",
+  "dependencies": {
+    "uglify-js": "^3.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
